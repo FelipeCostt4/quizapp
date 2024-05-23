@@ -32,7 +32,7 @@ body {
 header {
     padding: 16px 24px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .tema { 
@@ -146,8 +146,22 @@ main {
         margin-block: 81px;
     }
 
+    .tema {
+        gap: 16px;
+    }  
+
     .tema img {
-        
+        width: 24px;
+    }
+
+    .tema button {
+        width: 48px;
+        height: 28px;
+    }
+
+    .tema button div {
+        width: 20px;
+        height: 20px;
     }
 
     main {
