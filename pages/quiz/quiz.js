@@ -7,4 +7,4 @@ botaoTema.addEventListener("click", () => {
     trocarTema(body, botaoTema)
 })
 
-verificarTema(body, verificarTema)
+verificarTema(body, botaoTema)
